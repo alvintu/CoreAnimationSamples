@@ -24,21 +24,21 @@ Implemented with CAShapeLayer, CAGradientLayer and CADisplayLink.
 
 ## Shaking Text Field
 
-![]<img src="shakingtextfield.gif" width="350" />
+<img src="shakingtextfield.gif" width="350" />
 
 Implemented with CABasicAnimation and UITextFieldDelegate .
 
 
 ## Pulsating View on Tap
 
-![]<img src="pulsatingview.gif" width="350" />
+<img src="pulsatingview.gif" width="350" />
 
 Implemented with CAAnimationGroup, CAKeyframeAnimation and CABasicAnimation.
 
 
 ## Circle Progress
 
-![]<img src="circleprogress.gif" width="350" />
+<img src="circleprogress.gif" width="350" />
 
 Implemented with UIBezierPath and CABasicAnimation.
 
