@@ -8,7 +8,6 @@ iOS core animation demo.
 
 Implimented with CAReplicatorLayer and CABasicAnimation.
 
-Blog: http://www.cnblogs.com/silence-cnblogs/p/6951948.html
 
 ## Emitter
 
@@ -16,7 +15,6 @@ Blog: http://www.cnblogs.com/silence-cnblogs/p/6951948.html
 
 Implemented with CAEmitterLayer.
 
-Blog: http://www.cnblogs.com/silence-cnblogs/p/6971533.html
 
 ## Wave
 
@@ -24,4 +22,3 @@ Blog: http://www.cnblogs.com/silence-cnblogs/p/6971533.html
 
 Implemented with CAShapeLayer, CAGradientLayer and CADisplayLink.
 
-Blog: http://www.cnblogs.com/silence-cnblogs/p/6979418.html
