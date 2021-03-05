@@ -38,7 +38,7 @@ Implemented with CAAnimationGroup, CAKeyframeAnimation and CABasicAnimation.
 
 ## Circle Progress
 
-<img src="circleprogress.gif" width="350" />
+(README_resources/<img src="circleprogress.gif" width="350" />)
 
 Implemented with UIBezierPath and CABasicAnimation.
 
