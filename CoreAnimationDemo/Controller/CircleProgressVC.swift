@@ -7,12 +7,11 @@
 //
 
 import UIKit
-import EFCountingLabel
 
 class CircleProgressVC: UIViewController {
-    var topLabel = EFCountingLabel()
-    var middleLabel = EFCountingLabel()
-    var bottomLabel = EFCountingLabel()
+    var topLabel = CountingLabel()
+    var middleLabel = CountingLabel()
+    var bottomLabel = CountingLabel()
 
     let topCircleShapeLayer = CAShapeLayer()
     let middleCircleShapeLayer = CAShapeLayer()
@@ -36,33 +35,32 @@ class CircleProgressVC: UIViewController {
     
     
     @objc func handleTap(){
-        let topPercentageValue = 0.96
-        let topValue: CGFloat = CGFloat(topPercentageValue * 100)
+        
+        let topPercentageValue:Float = 0.96
         let topAnimation = CABasicAnimation(keyPath: "strokeEnd")
         topAnimation.toValue = topPercentageValue
         topAnimation.duration = 2
         topAnimation.fillMode = CAMediaTimingFillMode.forwards
         topAnimation.isRemovedOnCompletion = false
-        topLabel.countFrom(1, to: topValue)
+        topLabel.count(fromValue: 1, to: 1000, withDuration: 2.0, andAnimationType: .EaseOut, andCounterType: .Int)
 
         
-        let middlePercentageValue = 0.5
-        let middleValue: CGFloat = CGFloat(middlePercentageValue * 100)
+        let middlePercentageValue:Float = 0.48
         let middleAnimation = CABasicAnimation(keyPath: "strokeEnd")
         middleAnimation.toValue = middlePercentageValue
         middleAnimation.duration = 2
         middleAnimation.fillMode = CAMediaTimingFillMode.forwards
         middleAnimation.isRemovedOnCompletion = false
-        middleLabel.countFrom(1, to: middleValue)
-    
-        let bottomPercentageValue = 0.2
-        let bottomValue: CGFloat = CGFloat(bottomPercentageValue * 100)
+        middleLabel.count(fromValue: 0.0, to: middlePercentageValue, withDuration: 2.0, andAnimationType: .EaseIn, andCounterType: .Float)
+
+        
+        let bottomPercentageValue:Float = 0.23
         let bottomAnimation = CABasicAnimation(keyPath: "strokeEnd")
         bottomAnimation.toValue = bottomPercentageValue
         bottomAnimation.duration = 2
         bottomAnimation.fillMode = CAMediaTimingFillMode.forwards
         bottomAnimation.isRemovedOnCompletion = false
-        bottomLabel.countFrom(1, to: bottomValue)
+        bottomLabel.count(fromValue: 0.0, to: bottomPercentageValue, withDuration: 2.0, andAnimationType: .EaseOut, andCounterType: .Float)
 
         
         middleCircleShapeLayer.add(middleAnimation, forKey: "middleCircleDraw")
@@ -123,11 +121,11 @@ class CircleProgressVC: UIViewController {
         view.layer.addSublayer(middleCircleShapeLayer)
         view.layer.addSublayer(bottomCircleShapeLayer)
         
-        topLabel = EFCountingLabel(frame: CGRect(x: topCenter.x, y:topCenter.y, width: 100, height: 40))
+        topLabel = CountingLabel(frame: CGRect(x: topCenter.x, y:topCenter.y, width: 100, height: 40))
         topLabel.textColor = .systemGreen
-        middleLabel = EFCountingLabel(frame: CGRect(x: center.x, y:center.y, width: 100, height: 40))
+        middleLabel = CountingLabel(frame: CGRect(x: center.x, y:center.y, width: 100, height: 40))
         middleLabel.textColor = .systemYellow
-        bottomLabel = EFCountingLabel(frame: CGRect(x: bottomCenter.x, y:bottomCenter.y, width: 100, height: 40))
+        bottomLabel = CountingLabel(frame: CGRect(x: bottomCenter.x, y:bottomCenter.y, width: 100, height: 40))
         bottomLabel.textColor = .systemRed
 
         
