@@ -40,6 +40,6 @@ Implemented with CAAnimationGroup, CAKeyframeAnimation and CABasicAnimation.
 
 <img src="README_resources/circleprogress.gif" width="350" />
 
-Implemented with UIBezierPath, CABasicAnimation, and EFCountingLabel.
+Implemented with UIBezierPath, CABasicAnimation, and CountingLabel.
 
 

@@ -188,13 +188,13 @@ class EmitterVC: UIViewController {
     
     @IBAction func leftHeartButtonClicked(_ sender: UIButton) {
         sender.isUserInteractionEnabled = false
-        leftHeartLayer.beginTime = CACurrentMediaTime() - 1
+        leftHeartLayer.beginTime = CACurrentMediaTime() - 1.0
         leftHeartLayer.birthRate = 1
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) { [weak self] in
             guard let strongSelf = self else { return }
             strongSelf.leftHeartLayer.birthRate = 0
         }
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1) { [weak self] in
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) { [weak self] in
             guard self != nil else { return }
             sender.isUserInteractionEnabled = true
         }
