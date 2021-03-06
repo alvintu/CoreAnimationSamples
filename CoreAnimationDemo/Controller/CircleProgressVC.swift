@@ -21,15 +21,8 @@ class CircleProgressVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-//        addRectangle()
-//        addCircle()
-//        addOval()
         view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(handleTap)))
-
         addThreeCircles()
-
-
-
     }
     
     
@@ -66,10 +59,6 @@ class CircleProgressVC: UIViewController {
         middleCircleShapeLayer.add(middleAnimation, forKey: "middleCircleDraw")
         topCircleShapeLayer.add(topAnimation, forKey: "topCircleDraw")
         bottomCircleShapeLayer.add(bottomAnimation, forKey: "bottomCircleDraw")
-//
-//        rectangleShapeLayer.add(basicAnimation, forKey: "retangleDraw")
-//        rectangleShapeLayer.add(basicAnimation, forKey: "retangleDraw")
-//        ovalShapeLayer.add(basicAnimation, forKey: "ovalDraw")
 
         
     }
