@@ -1,4 +1,4 @@
-# CoreAnimationDemo
+# CoreAnimationSamples
 
 iOS core animation demo.
 
