@@ -1,6 +1,6 @@
 # CoreAnimationSamples
 
-iOS core animation demo.
+iOS core animation samples
 
 ## Pulsator
 
