@@ -22,6 +22,7 @@
 		C20E08FE25F292DC00C885A8 /* ShakingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20E08FD25F292DC00C885A8 /* ShakingTextField.swift */; };
 		C20E090225F2A09500C885A8 /* Pulsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20E090125F2A09500C885A8 /* Pulsing.swift */; };
 		C229C51125F3098F005CBB32 /* CountingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C229C51025F3098F005CBB32 /* CountingLabel.swift */; };
+		C28E7DF82612CAEB00167DAE /* ChainingTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28E7DF72612CAEB00167DAE /* ChainingTextViewController.swift */; };
 		C2A81FA625F2B9CB00D32287 /* CircleProgressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A81FA525F2B9CB00D32287 /* CircleProgressVC.swift */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +44,7 @@
 		C20E08FD25F292DC00C885A8 /* ShakingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakingTextField.swift; sourceTree = "<group>"; };
 		C20E090125F2A09500C885A8 /* Pulsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pulsing.swift; sourceTree = "<group>"; };
 		C229C51025F3098F005CBB32 /* CountingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountingLabel.swift; sourceTree = "<group>"; };
+		C28E7DF72612CAEB00167DAE /* ChainingTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainingTextViewController.swift; sourceTree = "<group>"; };
 		C2A81FA525F2B9CB00D32287 /* CircleProgressVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgressVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,6 +96,7 @@
 				C20E08F525F291F400C885A8 /* ShakeTextFieldVC.swift */,
 				C20E08F825F2922500C885A8 /* PulsatingTapVC.swift */,
 				C2A81FA525F2B9CB00D32287 /* CircleProgressVC.swift */,
+				C28E7DF72612CAEB00167DAE /* ChainingTextViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 				4AB267441EDFCC1E00DC5806 /* EmitterVC.swift in Sources */,
 				4AB267461EE0373100DC5806 /* WaveVC.swift in Sources */,
 				C20E090225F2A09500C885A8 /* Pulsing.swift in Sources */,
+				C28E7DF82612CAEB00167DAE /* ChainingTextViewController.swift in Sources */,
 				C20E08F625F291F400C885A8 /* ShakeTextFieldVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
