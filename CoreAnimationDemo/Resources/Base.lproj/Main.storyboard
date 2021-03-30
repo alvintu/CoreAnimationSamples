@@ -626,6 +626,24 @@
             </objects>
             <point key="canvasLocation" x="101.59999999999999" y="149.77511244377811"/>
         </scene>
+        <!--Chaining Text View Controller-->
+        <scene sceneID="F29-Ie-Uqg">
+            <objects>
+                <viewController storyboardIdentifier="ChainingTextViewController" id="9f4-yW-AYb" customClass="ChainingTextViewController" customModule="CoreAnimationDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="veC-JD-6Kt"/>
+                        <viewControllerLayoutGuide type="bottom" id="c6Z-aP-pBA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="SMi-Es-5f9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="svs-G6-D4n" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1823" y="1536"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Heart_red" width="21.5" height="21.5"/>

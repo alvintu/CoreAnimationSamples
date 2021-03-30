@@ -24,6 +24,7 @@ class TableViewController: UITableViewController {
                                             ["title" : "Shaking TextField", "vc" : "ShakeTextFieldVC"],
                                             ["title" : "Pulsating Tap", "vc" : "PulsatingTapVC"],
                                             ["title" : "Circle Progress", "vc" : "CircleProgressVC"],
+                                            ["title" : "Chain Text Animation", "vc" : "ChainingTextViewController"],
     ]
 
 
